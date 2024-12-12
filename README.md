@@ -4,7 +4,9 @@
 Avalgard est un système de gestion de jardin permettant aux utilisateurs d’optimiser leurs activités de jardinage. Le système repose sur une base de données relationnelle qui structure les informations liées aux plantes, aux sections de jardin, aux capteurs, et aux activités d’entretien. Cette approche permet une gestion précise et personnalisée de chaque jardin.
 
 ## Quelques Métriques
-- ...
+- Le système peut suivre jusqu’à 50 plantes différentes par jardin.
+- Il prévoit des mises à jour automatiques basées sur des données climatiques locales.
+- Intègre des capteurs pour mesurer la température, l’humérité et la luminosité.
 
 ## Particularités de la Situation
 La table Historique est central pour la planification des différents entretiens à réaliser sur les plantes. Grâce à la fréquence et à la date des entretiens réalisé nous pouvons déterminer un historique des entretiens effectués ansi qu'une planification des futures. Les capteurs jouerons égalment un rôle crucial afin de déterminer à quelle fréquence certaines tâches devront être effectuées.
