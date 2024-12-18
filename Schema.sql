@@ -78,6 +78,6 @@ ALTER TABLE Capteurs ADD FOREIGN KEY (section_id) REFERENCES Section (id) ON DEL
 
 ALTER TABLE Capteurs ADD FOREIGN KEY (capteur_type_id) REFERENCES Capteur_Type (id) ON DELETE CASCADE;
 
-ALTER TABLE Historique ADD FOREIGN KEY (entr_id) REFERENCES Entretien (id) ON DELETE CASCADE;
+ALTER TABLE Historique ADD FOREIGN KEY (entretien_id) REFERENCES Entretien (id) ON DELETE CASCADE;
 
 ALTER TABLE Historique ADD FOREIGN KEY (section_id) REFERENCES Section (id) ON DELETE CASCADE;
