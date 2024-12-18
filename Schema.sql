@@ -1,6 +1,6 @@
 CREATE TABLE Plante (
   id integer PRIMARY KEY,
-  nom varchar(50) not null,
+  nom varchar(50) not null
 );
 
 CREATE TABLE Jardin (
@@ -29,12 +29,12 @@ CREATE TABLE Capteurs (
   id integer PRIMARY KEY,
   section_id integer not null,
   capteur_type_id integer  not null,
-  nom varchar(50) not null,
+  nom varchar(50) not null
 );
 
 CREATE TABLE Capteur_Type (
   id integer PRIMARY KEY,
-  nom varchar(20) not null unique,
+  nom varchar(20) not null unique
 );
 
 CREATE TABLE Historique (
@@ -48,7 +48,7 @@ CREATE TABLE User (
   id integer PRIMARY KEY,
   nom varchar(50) unique not null,
   adresse_mail varchar(255) unique not null,
-  mot_de_passe_coupe varchar(255) not null,
+  mot_de_passe_coupe varchar(255) not null
 );
 
 CREATE TABLE Climat (
