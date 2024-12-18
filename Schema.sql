@@ -22,7 +22,7 @@ CREATE TABLE Entretien (
   id integer PRIMARY KEY,
   plante_id integer not null,
   type_entretien_id integer not null,
-  frequence time not null
+  frequence interval not null
 );
 
 CREATE TABLE Capteurs (
