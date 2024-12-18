@@ -21,6 +21,16 @@ La table Historique est central pour la planification des différents entretiens
   - Suivi des activités d’entretien et des historiques.
   - Intégration des climats pour ajuster les recommandations.
 
+## Limites de la Base de Données
+Bien que la base de données d'Avalgard couvre de nombreux aspects de la gestion de jardin, certaines limitations et sujets ne sont pas traités :
+
+- **Gestion des maladies et des parasites** : La base de données ne prend pas en compte les maladies spécifiques des plantes ou les infestations de parasites, ce qui pourrait affecter la santé des plantes et nécessiter des interventions spécifiques.
+- **Planification des ressources** : La base de données ne modélise pas la gestion des ressources nécessaires pour l'entretien des jardins, comme l'eau, les engrais ou les outils de jardinage.
+- **Interaction sociale** : Il n'y a pas de fonctionnalités pour permettre aux utilisateurs de partager leurs expériences de jardinage ou d'interagir avec d'autres jardiniers.
+- **Personnalisation avancée** : Les préférences spécifiques des utilisateurs concernant les types d'entretien ou les méthodes de jardinage ne sont pas prises en compte.
+
+Ces limitations peuvent être des pistes d'amélioration pour de futures versions du système, afin d'offrir une solution plus complète pour la gestion des jardins.
+
 ## Familiarité et Motivation
 Nous avons choisi ce thème, car dans le cadre du cours de génie logiciel, nous devons réaliser une web app sur la gestion de jardin.
 
