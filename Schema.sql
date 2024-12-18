@@ -44,7 +44,7 @@ CREATE TABLE Historique (
   section_id integer not null
 );
 
-CREATE TABLE User (
+CREATE TABLE Utilisateur (
   id integer PRIMARY KEY,
   nom varchar(50) unique not null,
   adresse_mail varchar(255) unique not null,
