@@ -5,7 +5,7 @@ CREATE TABLE Plante (
 
 CREATE TABLE Jardin (
   id integer PRIMARY KEY,
-  user_id integer not null,
+  utilisateur_id integer not null,
   nom varchar(255) not null,
   climat_id integer
 );
@@ -62,7 +62,7 @@ CREATE TABLE Entretien_Type (
   description varchar
 );
 
-ALTER TABLE Jardin ADD FOREIGN KEY (user_id) REFERENCES User (id) ON DELETE CASCADE;
+ALTER TABLE Jardin ADD FOREIGN KEY (utilisateur_id) REFERENCES Utilisateur (id) ON DELETE CASCADE;
 
 ALTER TABLE Jardin ADD FOREIGN KEY (climat_id) REFERENCES Climat (id);
 
