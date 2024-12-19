@@ -70,5 +70,5 @@ join plante p
 on s.plante_id = p.id
 join jardin j
 on s.jardin_id = j.id
-where j.id = 1
+where j.id = 2
 group by s.position_x, s.position_y;

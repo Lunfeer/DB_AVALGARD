@@ -40,7 +40,7 @@ CREATE TABLE Capteur_Type (
 CREATE TABLE Historique (
   id integer PRIMARY KEY,
   entretien_id integer not null,
-  date datetime not null,
+  date timestamp(3) not null,
   section_id integer not null
 );
 
