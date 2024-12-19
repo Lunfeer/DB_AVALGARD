@@ -21,6 +21,18 @@ La table Historique est central pour la planification des différents entretiens
   - Suivi des activités d’entretien et des historiques.
   - Intégration des climats pour ajuster les recommandations.
 
+
+![Schéma DB](./DB_Avalguard.png)
+
+## Exemples de demandes
+De nombreuses demandes peuvent être faites, comme par exemple :
+- La liste des plantes avec leurs entretiens.
+- Le nombre de plantes par jardin.
+- La liste des capteurs.
+- La liste des entretiens en cours et dans combien de temps ils devront être effectués.
+- L'historique des entretiens.
+- Le nombre de plantes par section.
+
 ## Limites de la Base de Données
 Bien que la base de données d'Avalgard couvre de nombreux aspects de la gestion de jardin, certaines limitations et sujets ne sont pas traités :
 
