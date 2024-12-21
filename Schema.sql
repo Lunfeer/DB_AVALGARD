@@ -81,3 +81,18 @@ ALTER TABLE Capteurs ADD FOREIGN KEY (capteur_type_id) REFERENCES Capteur_Type (
 ALTER TABLE Historique ADD FOREIGN KEY (entretien_id) REFERENCES Entretien (id) ON DELETE CASCADE;
 
 ALTER TABLE Historique ADD FOREIGN KEY (section_id) REFERENCES Section (id) ON DELETE CASCADE;
+
+
+CREATE INDEX idx_section_plante ON Section(plante_id);
+CREATE INDEX idx_section_jardin ON Section(jardin_id);
+
+CREATE INDEX idx_jardin_utilisateur ON Jardin(utilisateur_id);
+
+CREATE INDEX idx_entretien_plante ON Entretien(plante_id);
+CREATE INDEX idx_entretien_type ON Entretien(type_entretien_id);
+
+CREATE INDEX idx_historique_entretien ON Historique(entretien_id);
+CREATE INDEX idx_historique_section ON Historique(section_id);
+CREATE INDEX idx_historique_date ON Historique(date);
+
+CREATE INDEX idx_capteurs_section ON Capteurs(section_id);
